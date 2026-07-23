@@ -1,0 +1,139 @@
+<svg width="880" height="721" viewBox="0 0 880 721"
+     xmlns="http://www.w3.org/2000/svg" font-family="'SF Pro Display','Inter','Segoe UI',Helvetica,Arial,sans-serif">
+  <style>
+    text { user-select: none; }
+    .mono { font-family: 'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace; }
+    
+  </style>
+
+<style>
+    .section-title { font-size: 24px; font-weight: 700; fill: #F5F5F7; }
+    .section-sub { font-size: 11.5px; fill: #6E6E73; }
+    .tl-date { font-size: 10px; font-weight: 700; letter-spacing: .04em;
+                fill: #5EEAD4; }
+    .tl-title { font-size: 13px; font-weight: 700; fill: #F5F5F7; }
+    .tl-org { font-size: 11.5px; fill: #A1A1A6; }
+    .tl-detail { font-size: 11.5px; fill: #6E6E73; }
+    
+    #timeline-header {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-timeline-header 400ms cubic-bezier(.16,1,.3,1) 0ms forwards;
+    }
+    @keyframes fadeRise-timeline-header {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    #timeline-spine {
+      stroke-dasharray: 635;
+      stroke-dashoffset: 635;
+      animation: draw-timeline-spine 1560ms ease-out 150ms forwards;
+    }
+    @keyframes draw-timeline-spine {
+      to { stroke-dashoffset: 0; }
+    }
+    
+    #tl-node-0 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-tl-node-0 280ms cubic-bezier(.16,1,.3,1) 389ms forwards;
+    }
+    @keyframes fadeRise-tl-node-0 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-entry-0 {
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeRise-tl-entry-0 420ms cubic-bezier(.16,1,.3,1) 479ms forwards;
+    }
+    @keyframes fadeRise-tl-entry-0 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-node-1 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-tl-node-1 280ms cubic-bezier(.16,1,.3,1) 628ms forwards;
+    }
+    @keyframes fadeRise-tl-node-1 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-entry-1 {
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeRise-tl-entry-1 420ms cubic-bezier(.16,1,.3,1) 718ms forwards;
+    }
+    @keyframes fadeRise-tl-entry-1 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-node-2 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-tl-node-2 280ms cubic-bezier(.16,1,.3,1) 867ms forwards;
+    }
+    @keyframes fadeRise-tl-node-2 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-entry-2 {
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeRise-tl-entry-2 420ms cubic-bezier(.16,1,.3,1) 957ms forwards;
+    }
+    @keyframes fadeRise-tl-entry-2 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-node-3 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-tl-node-3 280ms cubic-bezier(.16,1,.3,1) 1106ms forwards;
+    }
+    @keyframes fadeRise-tl-node-3 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-entry-3 {
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeRise-tl-entry-3 420ms cubic-bezier(.16,1,.3,1) 1196ms forwards;
+    }
+    @keyframes fadeRise-tl-entry-3 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-node-4 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-tl-node-4 280ms cubic-bezier(.16,1,.3,1) 1346ms forwards;
+    }
+    @keyframes fadeRise-tl-node-4 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-entry-4 {
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeRise-tl-entry-4 420ms cubic-bezier(.16,1,.3,1) 1436ms forwards;
+    }
+    @keyframes fadeRise-tl-entry-4 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-node-5 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-tl-node-5 280ms cubic-bezier(.16,1,.3,1) 1585ms forwards;
+    }
+    @keyframes fadeRise-tl-node-5 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #tl-entry-5 {
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeRise-tl-entry-5 420ms cubic-bezier(.16,1,.3,1) 1675ms forwards;
+    }
+    @keyframes fadeRise-tl-entry-5 {
+      to { opacity: 1; transform: translateY(0); }
+    }</style>
+<g id="timeline-header">
+<text x="0" y="26" class="section-title">Timeline</text>
+<text x="0" y="46" class="section-sub">Education, internships, publications, and milestones</text>
+</g>
+<line x1="26" y1="60" x2="26" y2="695" stroke="#232326" stroke-width="2"/>
+<line id="timeline-spine" x1="26" y1="60" x2="26" y2="695" stroke="#5EEAD4" stroke-width="2"/>
+<circle id="tl-node-0" cx="26" cy="76" r="5.5" fill="#0A0A0B" stroke="#5EEAD4" stroke-width="2"/><circle cx="26" cy="76" r="2" fill="#5EEAD4"/><g id="tl-entry-0"><text x="60" y="76" class="tl-date mono">2023</text><text x="60" y="96" class="tl-title">Android App Development Intern</text><text x="60" y="113" class="tl-org">V3 Data Solution, Nashik</text><text x="60" y="128" class="tl-detail">Built &amp; debugged Java Android apps with third-party API integrations.</text></g><circle id="tl-node-1" cx="26" cy="182" r="5.5" fill="#0A0A0B" stroke="#5EEAD4" stroke-width="2"/><circle cx="26" cy="182" r="2" fill="#5EEAD4"/><g id="tl-entry-1"><text x="60" y="182" class="tl-date mono">2024</text><text x="60" y="202" class="tl-title">Diploma in Computer Engineering</text><text x="60" y="219" class="tl-org">MSBTE — 84.29%</text><text x="60" y="234" class="tl-detail">Graduated with distinction; moved on to a B.E. in Computer Engineering.</text></g><circle id="tl-node-2" cx="26" cy="288" r="5.5" fill="#0A0A0B" stroke="#5EEAD4" stroke-width="2"/><circle cx="26" cy="288" r="2" fill="#5EEAD4"/><g id="tl-entry-2"><text x="60" y="288" class="tl-date mono">2024</text><text x="60" y="308" class="tl-title">Published &quot;CoBus&quot; Research Paper</text><text x="60" y="325" class="tl-org">IJMRSETM · Google Scholar Indexed</text><text x="60" y="340" class="tl-detail">Web &amp; Android-based College Bus Management System (Vol. 11, Issue 4).</text></g><circle id="tl-node-3" cx="26" cy="394" r="5.5" fill="#0A0A0B" stroke="#5EEAD4" stroke-width="2"/><circle cx="26" cy="394" r="2" fill="#5EEAD4"/><g id="tl-entry-3"><text x="60" y="394" class="tl-date mono">2025</text><text x="60" y="414" class="tl-title">Co-authored AI/ML Review Paper</text><text x="60" y="431" class="tl-org">ResearchGate</text><text x="60" y="446" class="tl-detail">Bayesian-Optimized Ensemble Learning &amp; Explainable AI for attrition</text><text x="60" y="461" class="tl-detail">prediction.</text></g><circle id="tl-node-4" cx="26" cy="515" r="5.5" fill="#0A0A0B" stroke="#5EEAD4" stroke-width="2"/><circle cx="26" cy="515" r="2" fill="#5EEAD4"/><g id="tl-entry-4"><text x="60" y="515" class="tl-date mono">2026</text><text x="60" y="535" class="tl-title">Web Development Intern</text><text x="60" y="552" class="tl-org">InternBoot (via Employment Express)</text><text x="60" y="567" class="tl-detail">45-day remote internship, Grade A — shipped deployment-ready web apps.</text></g><circle id="tl-node-5" cx="26" cy="621" r="5.5" fill="#0A0A0B" stroke="#5EEAD4" stroke-width="2"/><circle cx="26" cy="621" r="2" fill="#5EEAD4"/><g id="tl-entry-5"><text x="60" y="621" class="tl-date mono">2026</text><text x="60" y="641" class="tl-title">Building github-profile-engine</text><text x="60" y="658" class="tl-org">Personal / Open Source</text><text x="60" y="673" class="tl-detail">A from-scratch Python + SVG engine for this very profile.</text></g>
+</svg>

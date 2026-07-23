@@ -1,0 +1,330 @@
+<svg width="880" height="444" viewBox="0 0 880 444"
+     xmlns="http://www.w3.org/2000/svg" font-family="'SF Pro Display','Inter','Segoe UI',Helvetica,Arial,sans-serif">
+  <style>
+    text { user-select: none; }
+    .mono { font-family: 'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace; }
+    
+  </style>
+
+<style>
+    .section-title { font-size: 24px; font-weight: 700; fill: #F5F5F7; }
+    .section-sub { font-size: 11.5px; fill: #6E6E73; }
+    
+    #skills-header {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skills-header 400ms cubic-bezier(.16,1,.3,1) 0ms forwards;
+    }
+    @keyframes fadeRise-skills-header {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    #skill-card-0 {
+      opacity: 0;
+      transform: translateY(12px);
+      animation: fadeRise-skill-card-0 450ms cubic-bezier(.16,1,.3,1) 0ms forwards;
+    }
+    @keyframes fadeRise-skill-card-0 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-0-bar-0 {
+      width: 0px;
+      animation: fill-skill-card-0-bar-0 750ms cubic-bezier(.16,1,.3,1) 200ms forwards;
+    }
+    @keyframes fill-skill-card-0-bar-0 { to { width: 306.0px; } }
+    #skill-card-0-pct-0 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-0-pct-0 250ms cubic-bezier(.16,1,.3,1) 750ms forwards;
+    }
+    @keyframes fadeRise-skill-card-0-pct-0 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-0-bar-1 {
+      width: 0px;
+      animation: fill-skill-card-0-bar-1 750ms cubic-bezier(.16,1,.3,1) 290ms forwards;
+    }
+    @keyframes fill-skill-card-0-bar-1 { to { width: 299.2px; } }
+    #skill-card-0-pct-1 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-0-pct-1 250ms cubic-bezier(.16,1,.3,1) 840ms forwards;
+    }
+    @keyframes fadeRise-skill-card-0-pct-1 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-0-bar-2 {
+      width: 0px;
+      animation: fill-skill-card-0-bar-2 750ms cubic-bezier(.16,1,.3,1) 380ms forwards;
+    }
+    @keyframes fill-skill-card-0-bar-2 { to { width: 272.0px; } }
+    #skill-card-0-pct-2 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-0-pct-2 250ms cubic-bezier(.16,1,.3,1) 930ms forwards;
+    }
+    @keyframes fadeRise-skill-card-0-pct-2 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-0-bar-3 {
+      width: 0px;
+      animation: fill-skill-card-0-bar-3 750ms cubic-bezier(.16,1,.3,1) 470ms forwards;
+    }
+    @keyframes fill-skill-card-0-bar-3 { to { width: 244.8px; } }
+    #skill-card-0-pct-3 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-0-pct-3 250ms cubic-bezier(.16,1,.3,1) 1020ms forwards;
+    }
+    @keyframes fadeRise-skill-card-0-pct-3 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-1 {
+      opacity: 0;
+      transform: translateY(12px);
+      animation: fadeRise-skill-card-1 450ms cubic-bezier(.16,1,.3,1) 90ms forwards;
+    }
+    @keyframes fadeRise-skill-card-1 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-1-bar-0 {
+      width: 0px;
+      animation: fill-skill-card-1-bar-0 750ms cubic-bezier(.16,1,.3,1) 290ms forwards;
+    }
+    @keyframes fill-skill-card-1-bar-0 { to { width: 299.2px; } }
+    #skill-card-1-pct-0 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-1-pct-0 250ms cubic-bezier(.16,1,.3,1) 840ms forwards;
+    }
+    @keyframes fadeRise-skill-card-1-pct-0 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-1-bar-1 {
+      width: 0px;
+      animation: fill-skill-card-1-bar-1 750ms cubic-bezier(.16,1,.3,1) 380ms forwards;
+    }
+    @keyframes fill-skill-card-1-bar-1 { to { width: 289.0px; } }
+    #skill-card-1-pct-1 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-1-pct-1 250ms cubic-bezier(.16,1,.3,1) 930ms forwards;
+    }
+    @keyframes fadeRise-skill-card-1-pct-1 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-1-bar-2 {
+      width: 0px;
+      animation: fill-skill-card-1-bar-2 750ms cubic-bezier(.16,1,.3,1) 470ms forwards;
+    }
+    @keyframes fill-skill-card-1-bar-2 { to { width: 306.0px; } }
+    #skill-card-1-pct-2 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-1-pct-2 250ms cubic-bezier(.16,1,.3,1) 1020ms forwards;
+    }
+    @keyframes fadeRise-skill-card-1-pct-2 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-2 {
+      opacity: 0;
+      transform: translateY(12px);
+      animation: fadeRise-skill-card-2 450ms cubic-bezier(.16,1,.3,1) 180ms forwards;
+    }
+    @keyframes fadeRise-skill-card-2 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-2-bar-0 {
+      width: 0px;
+      animation: fill-skill-card-2-bar-0 750ms cubic-bezier(.16,1,.3,1) 380ms forwards;
+    }
+    @keyframes fill-skill-card-2-bar-0 { to { width: 278.8px; } }
+    #skill-card-2-pct-0 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-2-pct-0 250ms cubic-bezier(.16,1,.3,1) 930ms forwards;
+    }
+    @keyframes fadeRise-skill-card-2-pct-0 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-2-bar-1 {
+      width: 0px;
+      animation: fill-skill-card-2-bar-1 750ms cubic-bezier(.16,1,.3,1) 470ms forwards;
+    }
+    @keyframes fill-skill-card-2-bar-1 { to { width: 289.0px; } }
+    #skill-card-2-pct-1 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-2-pct-1 250ms cubic-bezier(.16,1,.3,1) 1020ms forwards;
+    }
+    @keyframes fadeRise-skill-card-2-pct-1 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-2-bar-2 {
+      width: 0px;
+      animation: fill-skill-card-2-bar-2 750ms cubic-bezier(.16,1,.3,1) 560ms forwards;
+    }
+    @keyframes fill-skill-card-2-bar-2 { to { width: 299.2px; } }
+    #skill-card-2-pct-2 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-2-pct-2 250ms cubic-bezier(.16,1,.3,1) 1110ms forwards;
+    }
+    @keyframes fadeRise-skill-card-2-pct-2 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-2-bar-3 {
+      width: 0px;
+      animation: fill-skill-card-2-bar-3 750ms cubic-bezier(.16,1,.3,1) 650ms forwards;
+    }
+    @keyframes fill-skill-card-2-bar-3 { to { width: 289.0px; } }
+    #skill-card-2-pct-3 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-2-pct-3 250ms cubic-bezier(.16,1,.3,1) 1200ms forwards;
+    }
+    @keyframes fadeRise-skill-card-2-pct-3 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-3 {
+      opacity: 0;
+      transform: translateY(12px);
+      animation: fadeRise-skill-card-3 450ms cubic-bezier(.16,1,.3,1) 270ms forwards;
+    }
+    @keyframes fadeRise-skill-card-3 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-3-bar-0 {
+      width: 0px;
+      animation: fill-skill-card-3-bar-0 750ms cubic-bezier(.16,1,.3,1) 470ms forwards;
+    }
+    @keyframes fill-skill-card-3-bar-0 { to { width: 289.0px; } }
+    #skill-card-3-pct-0 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-3-pct-0 250ms cubic-bezier(.16,1,.3,1) 1020ms forwards;
+    }
+    @keyframes fadeRise-skill-card-3-pct-0 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-3-bar-1 {
+      width: 0px;
+      animation: fill-skill-card-3-bar-1 750ms cubic-bezier(.16,1,.3,1) 560ms forwards;
+    }
+    @keyframes fill-skill-card-3-bar-1 { to { width: 255.0px; } }
+    #skill-card-3-pct-1 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-3-pct-1 250ms cubic-bezier(.16,1,.3,1) 1110ms forwards;
+    }
+    @keyframes fadeRise-skill-card-3-pct-1 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-3-bar-2 {
+      width: 0px;
+      animation: fill-skill-card-3-bar-2 750ms cubic-bezier(.16,1,.3,1) 650ms forwards;
+    }
+    @keyframes fill-skill-card-3-bar-2 { to { width: 221.0px; } }
+    #skill-card-3-pct-2 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-3-pct-2 250ms cubic-bezier(.16,1,.3,1) 1200ms forwards;
+    }
+    @keyframes fadeRise-skill-card-3-pct-2 {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #skill-card-3-bar-3 {
+      width: 0px;
+      animation: fill-skill-card-3-bar-3 750ms cubic-bezier(.16,1,.3,1) 740ms forwards;
+    }
+    @keyframes fill-skill-card-3-bar-3 { to { width: 272.0px; } }
+    #skill-card-3-pct-3 {
+      opacity: 0;
+      transform: translateY(0px);
+      animation: fadeRise-skill-card-3-pct-3 250ms cubic-bezier(.16,1,.3,1) 1290ms forwards;
+    }
+    @keyframes fadeRise-skill-card-3-pct-3 {
+      to { opacity: 1; transform: translateY(0); }
+    }</style>
+<g id="skills-header">
+<text x="0" y="26" class="section-title">Skills</text>
+<text x="0" y="46" class="section-sub">Languages, frameworks, and tools I build with regularly</text>
+</g>
+<g id="skill-card-0" transform="translate(0,60)">
+<rect x="0" y="0" width="430" height="176" rx="16" fill="#111113" stroke="#232326" stroke-width="1"/>
+<text x="22" y="24" font-size="13" font-weight="700" fill="#F5F5F7">Languages</text>
+<line x1="22" y1="26" x2="408" y2="26" stroke="#232326" stroke-width="1"/>
+<text x="22" y="48" font-size="11.5" fill="#A1A1A6">Java</text>
+<rect x="22" y="56" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-0-bar-0" x="22" y="56" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-0-pct-0" x="374" y="48" font-size="10" fill="#6E6E73" class="mono">90%</text>
+<text x="22" y="78" font-size="11.5" fill="#A1A1A6">JavaScript</text>
+<rect x="22" y="86" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-0-bar-1" x="22" y="86" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-0-pct-1" x="374" y="78" font-size="10" fill="#6E6E73" class="mono">88%</text>
+<text x="22" y="108" font-size="11.5" fill="#A1A1A6">Python</text>
+<rect x="22" y="116" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-0-bar-2" x="22" y="116" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-0-pct-2" x="374" y="108" font-size="10" fill="#6E6E73" class="mono">80%</text>
+<text x="22" y="138" font-size="11.5" fill="#A1A1A6">C++</text>
+<rect x="22" y="146" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-0-bar-3" x="22" y="146" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-0-pct-3" x="374" y="138" font-size="10" fill="#6E6E73" class="mono">72%</text>
+</g><g id="skill-card-1" transform="translate(450,60)">
+<rect x="0" y="0" width="430" height="146" rx="16" fill="#111113" stroke="#232326" stroke-width="1"/>
+<text x="22" y="24" font-size="13" font-weight="700" fill="#F5F5F7">Frontend</text>
+<line x1="22" y1="26" x2="408" y2="26" stroke="#232326" stroke-width="1"/>
+<text x="22" y="48" font-size="11.5" fill="#A1A1A6">React.js</text>
+<rect x="22" y="56" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-1-bar-0" x="22" y="56" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-1-pct-0" x="374" y="48" font-size="10" fill="#6E6E73" class="mono">88%</text>
+<text x="22" y="78" font-size="11.5" fill="#A1A1A6">Tailwind CSS</text>
+<rect x="22" y="86" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-1-bar-1" x="22" y="86" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-1-pct-1" x="374" y="78" font-size="10" fill="#6E6E73" class="mono">85%</text>
+<text x="22" y="108" font-size="11.5" fill="#A1A1A6">HTML5 / CSS3</text>
+<rect x="22" y="116" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-1-bar-2" x="22" y="116" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-1-pct-2" x="374" y="108" font-size="10" fill="#6E6E73" class="mono">90%</text>
+</g><g id="skill-card-2" transform="translate(0,252)">
+<rect x="0" y="0" width="430" height="176" rx="16" fill="#111113" stroke="#232326" stroke-width="1"/>
+<text x="22" y="24" font-size="13" font-weight="700" fill="#F5F5F7">Backend</text>
+<line x1="22" y1="26" x2="408" y2="26" stroke="#232326" stroke-width="1"/>
+<text x="22" y="48" font-size="11.5" fill="#A1A1A6">Spring Boot</text>
+<rect x="22" y="56" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-2-bar-0" x="22" y="56" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-2-pct-0" x="374" y="48" font-size="10" fill="#6E6E73" class="mono">82%</text>
+<text x="22" y="78" font-size="11.5" fill="#A1A1A6">Node.js / Express</text>
+<rect x="22" y="86" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-2-bar-1" x="22" y="86" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-2-pct-1" x="374" y="78" font-size="10" fill="#6E6E73" class="mono">85%</text>
+<text x="22" y="108" font-size="11.5" fill="#A1A1A6">REST APIs</text>
+<rect x="22" y="116" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-2-bar-2" x="22" y="116" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-2-pct-2" x="374" y="108" font-size="10" fill="#6E6E73" class="mono">88%</text>
+<text x="22" y="138" font-size="11.5" fill="#A1A1A6">JWT Auth</text>
+<rect x="22" y="146" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-2-bar-3" x="22" y="146" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-2-pct-3" x="374" y="138" font-size="10" fill="#6E6E73" class="mono">85%</text>
+</g><g id="skill-card-3" transform="translate(450,222)">
+<rect x="0" y="0" width="430" height="176" rx="16" fill="#111113" stroke="#232326" stroke-width="1"/>
+<text x="22" y="24" font-size="13" font-weight="700" fill="#F5F5F7">Data &amp; Cloud</text>
+<line x1="22" y1="26" x2="408" y2="26" stroke="#232326" stroke-width="1"/>
+<text x="22" y="48" font-size="11.5" fill="#A1A1A6">MongoDB</text>
+<rect x="22" y="56" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-3-bar-0" x="22" y="56" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-3-pct-0" x="374" y="48" font-size="10" fill="#6E6E73" class="mono">85%</text>
+<text x="22" y="78" font-size="11.5" fill="#A1A1A6">MySQL</text>
+<rect x="22" y="86" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-3-bar-1" x="22" y="86" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-3-pct-1" x="374" y="78" font-size="10" fill="#6E6E73" class="mono">75%</text>
+<text x="22" y="108" font-size="11.5" fill="#A1A1A6">AWS</text>
+<rect x="22" y="116" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-3-bar-2" x="22" y="116" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-3-pct-2" x="374" y="108" font-size="10" fill="#6E6E73" class="mono">65%</text>
+<text x="22" y="138" font-size="11.5" fill="#A1A1A6">Vercel / Render / Railway</text>
+<rect x="22" y="146" width="340" height="6" rx="3.0" fill="#17181B"/>
+<rect id="skill-card-3-bar-3" x="22" y="146" height="6" rx="3.0" fill="#5EEAD4"/>
+<text id="skill-card-3-pct-3" x="374" y="138" font-size="10" fill="#6E6E73" class="mono">80%</text>
+</g>
+</svg>
