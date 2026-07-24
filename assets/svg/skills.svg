@@ -11,239 +11,219 @@
     .section-sub { font-size: 11.5px; fill: #6E6E73; }
     
     #skills-header {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skills-header 400ms cubic-bezier(.16,1,.3,1) 0ms forwards;
+      animation: fadeRise-skills-header 400ms cubic-bezier(.16,1,.3,1) 0ms both;
     }
     @keyframes fadeRise-skills-header {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     
     #skill-card-0 {
-      opacity: 0;
-      transform: translateY(12px);
-      animation: fadeRise-skill-card-0 450ms cubic-bezier(.16,1,.3,1) 0ms forwards;
+      animation: fadeRise-skill-card-0 450ms cubic-bezier(.16,1,.3,1) 0ms both;
     }
     @keyframes fadeRise-skill-card-0 {
+      from { opacity: 0; transform: translateY(12px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-0-bar-0 {
-      width: 0px;
-      animation: fill-skill-card-0-bar-0 750ms cubic-bezier(.16,1,.3,1) 200ms forwards;
+      width: 306.0px;
+      animation: fill-skill-card-0-bar-0 750ms cubic-bezier(.16,1,.3,1) 200ms both;
     }
-    @keyframes fill-skill-card-0-bar-0 { to { width: 306.0px; } }
+    @keyframes fill-skill-card-0-bar-0 { from { width: 0px; } to { width: 306.0px; } }
     #skill-card-0-pct-0 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-0-pct-0 250ms cubic-bezier(.16,1,.3,1) 750ms forwards;
+      animation: fadeRise-skill-card-0-pct-0 250ms cubic-bezier(.16,1,.3,1) 750ms both;
     }
     @keyframes fadeRise-skill-card-0-pct-0 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-0-bar-1 {
-      width: 0px;
-      animation: fill-skill-card-0-bar-1 750ms cubic-bezier(.16,1,.3,1) 290ms forwards;
+      width: 299.2px;
+      animation: fill-skill-card-0-bar-1 750ms cubic-bezier(.16,1,.3,1) 290ms both;
     }
-    @keyframes fill-skill-card-0-bar-1 { to { width: 299.2px; } }
+    @keyframes fill-skill-card-0-bar-1 { from { width: 0px; } to { width: 299.2px; } }
     #skill-card-0-pct-1 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-0-pct-1 250ms cubic-bezier(.16,1,.3,1) 840ms forwards;
+      animation: fadeRise-skill-card-0-pct-1 250ms cubic-bezier(.16,1,.3,1) 840ms both;
     }
     @keyframes fadeRise-skill-card-0-pct-1 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-0-bar-2 {
-      width: 0px;
-      animation: fill-skill-card-0-bar-2 750ms cubic-bezier(.16,1,.3,1) 380ms forwards;
+      width: 272.0px;
+      animation: fill-skill-card-0-bar-2 750ms cubic-bezier(.16,1,.3,1) 380ms both;
     }
-    @keyframes fill-skill-card-0-bar-2 { to { width: 272.0px; } }
+    @keyframes fill-skill-card-0-bar-2 { from { width: 0px; } to { width: 272.0px; } }
     #skill-card-0-pct-2 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-0-pct-2 250ms cubic-bezier(.16,1,.3,1) 930ms forwards;
+      animation: fadeRise-skill-card-0-pct-2 250ms cubic-bezier(.16,1,.3,1) 930ms both;
     }
     @keyframes fadeRise-skill-card-0-pct-2 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-0-bar-3 {
-      width: 0px;
-      animation: fill-skill-card-0-bar-3 750ms cubic-bezier(.16,1,.3,1) 470ms forwards;
+      width: 244.8px;
+      animation: fill-skill-card-0-bar-3 750ms cubic-bezier(.16,1,.3,1) 470ms both;
     }
-    @keyframes fill-skill-card-0-bar-3 { to { width: 244.8px; } }
+    @keyframes fill-skill-card-0-bar-3 { from { width: 0px; } to { width: 244.8px; } }
     #skill-card-0-pct-3 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-0-pct-3 250ms cubic-bezier(.16,1,.3,1) 1020ms forwards;
+      animation: fadeRise-skill-card-0-pct-3 250ms cubic-bezier(.16,1,.3,1) 1020ms both;
     }
     @keyframes fadeRise-skill-card-0-pct-3 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-1 {
-      opacity: 0;
-      transform: translateY(12px);
-      animation: fadeRise-skill-card-1 450ms cubic-bezier(.16,1,.3,1) 90ms forwards;
+      animation: fadeRise-skill-card-1 450ms cubic-bezier(.16,1,.3,1) 90ms both;
     }
     @keyframes fadeRise-skill-card-1 {
+      from { opacity: 0; transform: translateY(12px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-1-bar-0 {
-      width: 0px;
-      animation: fill-skill-card-1-bar-0 750ms cubic-bezier(.16,1,.3,1) 290ms forwards;
+      width: 299.2px;
+      animation: fill-skill-card-1-bar-0 750ms cubic-bezier(.16,1,.3,1) 290ms both;
     }
-    @keyframes fill-skill-card-1-bar-0 { to { width: 299.2px; } }
+    @keyframes fill-skill-card-1-bar-0 { from { width: 0px; } to { width: 299.2px; } }
     #skill-card-1-pct-0 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-1-pct-0 250ms cubic-bezier(.16,1,.3,1) 840ms forwards;
+      animation: fadeRise-skill-card-1-pct-0 250ms cubic-bezier(.16,1,.3,1) 840ms both;
     }
     @keyframes fadeRise-skill-card-1-pct-0 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-1-bar-1 {
-      width: 0px;
-      animation: fill-skill-card-1-bar-1 750ms cubic-bezier(.16,1,.3,1) 380ms forwards;
+      width: 289.0px;
+      animation: fill-skill-card-1-bar-1 750ms cubic-bezier(.16,1,.3,1) 380ms both;
     }
-    @keyframes fill-skill-card-1-bar-1 { to { width: 289.0px; } }
+    @keyframes fill-skill-card-1-bar-1 { from { width: 0px; } to { width: 289.0px; } }
     #skill-card-1-pct-1 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-1-pct-1 250ms cubic-bezier(.16,1,.3,1) 930ms forwards;
+      animation: fadeRise-skill-card-1-pct-1 250ms cubic-bezier(.16,1,.3,1) 930ms both;
     }
     @keyframes fadeRise-skill-card-1-pct-1 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-1-bar-2 {
-      width: 0px;
-      animation: fill-skill-card-1-bar-2 750ms cubic-bezier(.16,1,.3,1) 470ms forwards;
+      width: 306.0px;
+      animation: fill-skill-card-1-bar-2 750ms cubic-bezier(.16,1,.3,1) 470ms both;
     }
-    @keyframes fill-skill-card-1-bar-2 { to { width: 306.0px; } }
+    @keyframes fill-skill-card-1-bar-2 { from { width: 0px; } to { width: 306.0px; } }
     #skill-card-1-pct-2 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-1-pct-2 250ms cubic-bezier(.16,1,.3,1) 1020ms forwards;
+      animation: fadeRise-skill-card-1-pct-2 250ms cubic-bezier(.16,1,.3,1) 1020ms both;
     }
     @keyframes fadeRise-skill-card-1-pct-2 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-2 {
-      opacity: 0;
-      transform: translateY(12px);
-      animation: fadeRise-skill-card-2 450ms cubic-bezier(.16,1,.3,1) 180ms forwards;
+      animation: fadeRise-skill-card-2 450ms cubic-bezier(.16,1,.3,1) 180ms both;
     }
     @keyframes fadeRise-skill-card-2 {
+      from { opacity: 0; transform: translateY(12px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-2-bar-0 {
-      width: 0px;
-      animation: fill-skill-card-2-bar-0 750ms cubic-bezier(.16,1,.3,1) 380ms forwards;
+      width: 278.8px;
+      animation: fill-skill-card-2-bar-0 750ms cubic-bezier(.16,1,.3,1) 380ms both;
     }
-    @keyframes fill-skill-card-2-bar-0 { to { width: 278.8px; } }
+    @keyframes fill-skill-card-2-bar-0 { from { width: 0px; } to { width: 278.8px; } }
     #skill-card-2-pct-0 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-2-pct-0 250ms cubic-bezier(.16,1,.3,1) 930ms forwards;
+      animation: fadeRise-skill-card-2-pct-0 250ms cubic-bezier(.16,1,.3,1) 930ms both;
     }
     @keyframes fadeRise-skill-card-2-pct-0 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-2-bar-1 {
-      width: 0px;
-      animation: fill-skill-card-2-bar-1 750ms cubic-bezier(.16,1,.3,1) 470ms forwards;
+      width: 289.0px;
+      animation: fill-skill-card-2-bar-1 750ms cubic-bezier(.16,1,.3,1) 470ms both;
     }
-    @keyframes fill-skill-card-2-bar-1 { to { width: 289.0px; } }
+    @keyframes fill-skill-card-2-bar-1 { from { width: 0px; } to { width: 289.0px; } }
     #skill-card-2-pct-1 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-2-pct-1 250ms cubic-bezier(.16,1,.3,1) 1020ms forwards;
+      animation: fadeRise-skill-card-2-pct-1 250ms cubic-bezier(.16,1,.3,1) 1020ms both;
     }
     @keyframes fadeRise-skill-card-2-pct-1 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-2-bar-2 {
-      width: 0px;
-      animation: fill-skill-card-2-bar-2 750ms cubic-bezier(.16,1,.3,1) 560ms forwards;
+      width: 299.2px;
+      animation: fill-skill-card-2-bar-2 750ms cubic-bezier(.16,1,.3,1) 560ms both;
     }
-    @keyframes fill-skill-card-2-bar-2 { to { width: 299.2px; } }
+    @keyframes fill-skill-card-2-bar-2 { from { width: 0px; } to { width: 299.2px; } }
     #skill-card-2-pct-2 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-2-pct-2 250ms cubic-bezier(.16,1,.3,1) 1110ms forwards;
+      animation: fadeRise-skill-card-2-pct-2 250ms cubic-bezier(.16,1,.3,1) 1110ms both;
     }
     @keyframes fadeRise-skill-card-2-pct-2 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-2-bar-3 {
-      width: 0px;
-      animation: fill-skill-card-2-bar-3 750ms cubic-bezier(.16,1,.3,1) 650ms forwards;
+      width: 289.0px;
+      animation: fill-skill-card-2-bar-3 750ms cubic-bezier(.16,1,.3,1) 650ms both;
     }
-    @keyframes fill-skill-card-2-bar-3 { to { width: 289.0px; } }
+    @keyframes fill-skill-card-2-bar-3 { from { width: 0px; } to { width: 289.0px; } }
     #skill-card-2-pct-3 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-2-pct-3 250ms cubic-bezier(.16,1,.3,1) 1200ms forwards;
+      animation: fadeRise-skill-card-2-pct-3 250ms cubic-bezier(.16,1,.3,1) 1200ms both;
     }
     @keyframes fadeRise-skill-card-2-pct-3 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-3 {
-      opacity: 0;
-      transform: translateY(12px);
-      animation: fadeRise-skill-card-3 450ms cubic-bezier(.16,1,.3,1) 270ms forwards;
+      animation: fadeRise-skill-card-3 450ms cubic-bezier(.16,1,.3,1) 270ms both;
     }
     @keyframes fadeRise-skill-card-3 {
+      from { opacity: 0; transform: translateY(12px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-3-bar-0 {
-      width: 0px;
-      animation: fill-skill-card-3-bar-0 750ms cubic-bezier(.16,1,.3,1) 470ms forwards;
+      width: 289.0px;
+      animation: fill-skill-card-3-bar-0 750ms cubic-bezier(.16,1,.3,1) 470ms both;
     }
-    @keyframes fill-skill-card-3-bar-0 { to { width: 289.0px; } }
+    @keyframes fill-skill-card-3-bar-0 { from { width: 0px; } to { width: 289.0px; } }
     #skill-card-3-pct-0 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-3-pct-0 250ms cubic-bezier(.16,1,.3,1) 1020ms forwards;
+      animation: fadeRise-skill-card-3-pct-0 250ms cubic-bezier(.16,1,.3,1) 1020ms both;
     }
     @keyframes fadeRise-skill-card-3-pct-0 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-3-bar-1 {
-      width: 0px;
-      animation: fill-skill-card-3-bar-1 750ms cubic-bezier(.16,1,.3,1) 560ms forwards;
+      width: 255.0px;
+      animation: fill-skill-card-3-bar-1 750ms cubic-bezier(.16,1,.3,1) 560ms both;
     }
-    @keyframes fill-skill-card-3-bar-1 { to { width: 255.0px; } }
+    @keyframes fill-skill-card-3-bar-1 { from { width: 0px; } to { width: 255.0px; } }
     #skill-card-3-pct-1 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-3-pct-1 250ms cubic-bezier(.16,1,.3,1) 1110ms forwards;
+      animation: fadeRise-skill-card-3-pct-1 250ms cubic-bezier(.16,1,.3,1) 1110ms both;
     }
     @keyframes fadeRise-skill-card-3-pct-1 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-3-bar-2 {
-      width: 0px;
-      animation: fill-skill-card-3-bar-2 750ms cubic-bezier(.16,1,.3,1) 650ms forwards;
+      width: 221.0px;
+      animation: fill-skill-card-3-bar-2 750ms cubic-bezier(.16,1,.3,1) 650ms both;
     }
-    @keyframes fill-skill-card-3-bar-2 { to { width: 221.0px; } }
+    @keyframes fill-skill-card-3-bar-2 { from { width: 0px; } to { width: 221.0px; } }
     #skill-card-3-pct-2 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-3-pct-2 250ms cubic-bezier(.16,1,.3,1) 1200ms forwards;
+      animation: fadeRise-skill-card-3-pct-2 250ms cubic-bezier(.16,1,.3,1) 1200ms both;
     }
     @keyframes fadeRise-skill-card-3-pct-2 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #skill-card-3-bar-3 {
-      width: 0px;
-      animation: fill-skill-card-3-bar-3 750ms cubic-bezier(.16,1,.3,1) 740ms forwards;
+      width: 272.0px;
+      animation: fill-skill-card-3-bar-3 750ms cubic-bezier(.16,1,.3,1) 740ms both;
     }
-    @keyframes fill-skill-card-3-bar-3 { to { width: 272.0px; } }
+    @keyframes fill-skill-card-3-bar-3 { from { width: 0px; } to { width: 272.0px; } }
     #skill-card-3-pct-3 {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-skill-card-3-pct-3 250ms cubic-bezier(.16,1,.3,1) 1290ms forwards;
+      animation: fadeRise-skill-card-3-pct-3 250ms cubic-bezier(.16,1,.3,1) 1290ms both;
     }
     @keyframes fadeRise-skill-card-3-pct-3 {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }</style>
 <g id="skills-header">

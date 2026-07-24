@@ -11,60 +11,54 @@
     .section-sub { font-size: 11.5px; fill: #6E6E73; }
     
     #proj-header {
-      opacity: 0;
-      transform: translateY(0px);
-      animation: fadeRise-proj-header 400ms cubic-bezier(.16,1,.3,1) 0ms forwards;
+      animation: fadeRise-proj-header 400ms cubic-bezier(.16,1,.3,1) 0ms both;
     }
     @keyframes fadeRise-proj-header {
+      from { opacity: 0; transform: translateY(0px); }
       to { opacity: 1; transform: translateY(0); }
     }
     
     #proj-0 {
-      opacity: 0;
-      transform: translateY(14px);
-      animation: fadeRise-proj-0 480ms cubic-bezier(.16,1,.3,1) 150ms forwards;
+      animation: fadeRise-proj-0 480ms cubic-bezier(.16,1,.3,1) 150ms both;
     }
     @keyframes fadeRise-proj-0 {
+      from { opacity: 0; transform: translateY(14px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #proj-bar-0 { height: 0px; animation: growbar-proj-bar-0 500ms cubic-bezier(.16,1,.3,1) 270ms forwards; }
     @keyframes growbar-proj-bar-0 { to { height: 106px; } }
     #proj-1 {
-      opacity: 0;
-      transform: translateY(14px);
-      animation: fadeRise-proj-1 480ms cubic-bezier(.16,1,.3,1) 290ms forwards;
+      animation: fadeRise-proj-1 480ms cubic-bezier(.16,1,.3,1) 290ms both;
     }
     @keyframes fadeRise-proj-1 {
+      from { opacity: 0; transform: translateY(14px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #proj-bar-1 { height: 0px; animation: growbar-proj-bar-1 500ms cubic-bezier(.16,1,.3,1) 410ms forwards; }
     @keyframes growbar-proj-bar-1 { to { height: 106px; } }
     #proj-2 {
-      opacity: 0;
-      transform: translateY(14px);
-      animation: fadeRise-proj-2 480ms cubic-bezier(.16,1,.3,1) 430ms forwards;
+      animation: fadeRise-proj-2 480ms cubic-bezier(.16,1,.3,1) 430ms both;
     }
     @keyframes fadeRise-proj-2 {
+      from { opacity: 0; transform: translateY(14px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #proj-bar-2 { height: 0px; animation: growbar-proj-bar-2 500ms cubic-bezier(.16,1,.3,1) 550ms forwards; }
     @keyframes growbar-proj-bar-2 { to { height: 106px; } }
     #proj-3 {
-      opacity: 0;
-      transform: translateY(14px);
-      animation: fadeRise-proj-3 480ms cubic-bezier(.16,1,.3,1) 570ms forwards;
+      animation: fadeRise-proj-3 480ms cubic-bezier(.16,1,.3,1) 570ms both;
     }
     @keyframes fadeRise-proj-3 {
+      from { opacity: 0; transform: translateY(14px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #proj-bar-3 { height: 0px; animation: growbar-proj-bar-3 500ms cubic-bezier(.16,1,.3,1) 690ms forwards; }
     @keyframes growbar-proj-bar-3 { to { height: 106px; } }
     #proj-4 {
-      opacity: 0;
-      transform: translateY(14px);
-      animation: fadeRise-proj-4 480ms cubic-bezier(.16,1,.3,1) 710ms forwards;
+      animation: fadeRise-proj-4 480ms cubic-bezier(.16,1,.3,1) 710ms both;
     }
     @keyframes fadeRise-proj-4 {
+      from { opacity: 0; transform: translateY(14px); }
       to { opacity: 1; transform: translateY(0); }
     }
     #proj-bar-4 { height: 0px; animation: growbar-proj-bar-4 500ms cubic-bezier(.16,1,.3,1) 830ms forwards; }
