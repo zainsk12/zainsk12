@@ -104,7 +104,7 @@
 <text id="hero-tagline" x="48" y="200" class="tagline">ntend, and the AI layer in between.</text>
 <g id="hero-chips">
   <g id="chip-0">
-    <rect x="48" y="232" width="77" height="34" rx="17"
+    <rect x="48" y="232" width="165" height="34" rx="17"
           fill="#111113" stroke="#232326" stroke-width="1"/>
     <circle cx="65" cy="249" r="3.5" fill="#5EEAD4"/>
     <text x="78" y="253.5" font-size="11.5" fill="#A1A1A6">
@@ -112,18 +112,18 @@
     </text>
   </g>
   <g id="chip-1">
-    <rect x="137.4" y="232" width="117" height="34" rx="17"
+    <rect x="229" y="232" width="165" height="34" rx="17"
           fill="#111113" stroke="#232326" stroke-width="1"/>
-    <circle cx="154.4" cy="249" r="3.5" fill="#5EEAD4"/>
-    <text x="167.4" y="253.5" font-size="11.5" fill="#A1A1A6">
+    <circle cx="246" cy="249" r="3.5" fill="#5EEAD4"/>
+    <text x="259" y="253.5" font-size="11.5" fill="#A1A1A6">
       <tspan fill="#6E6E73">LINKEDIN </tspan><tspan fill="#F5F5F7">zain-shaikh-30j</tspan>
     </text>
   </g>
   <g id="chip-2">
-    <rect x="266.4" y="232" width="58" height="34" rx="17"
+    <rect x="410" y="232" width="165" height="34" rx="17"
           fill="#111113" stroke="#232326" stroke-width="1"/>
-    <circle cx="283.4" cy="249" r="3.5" fill="#5EEAD4"/>
-    <text x="296.4" y="253.5" font-size="11.5" fill="#A1A1A6">
+    <circle cx="427" cy="249" r="3.5" fill="#5EEAD4"/>
+    <text x="440" y="253.5" font-size="11.5" fill="#A1A1A6">
       <tspan fill="#6E6E73">LOCATION </tspan><tspan fill="#F5F5F7">Nashik</tspan>
     </text>
   </g></g>

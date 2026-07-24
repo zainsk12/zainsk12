@@ -129,6 +129,6 @@
 <text id="info-line-5" x="28" y="196" class="ic-code"><tspan fill="#6E6E73">  </tspan><tspan fill="#5EEAD4">"status"</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#F5F5F7">"Open to SDE / Full-Stack roles"</tspan><tspan fill="#6E6E73"></tspan></text>
 <text x="28" y="217" class="ic-code"><tspan fill="#6E6E73">}</tspan></text>
 <line x1="28" y1="258" x2="552" y2="258" stroke="#232326" stroke-width="1"/>
-<text x="28" y="274" class="ic-code" font-size="11.5" fill="#6E6E73">// 3 certifications · 2 published research papers</text>
+<text x="28" y="274" class="ic-code" font-size="11.5" fill="#6E6E73">// 4 certifications · 2 published research papers</text>
 </g>
 </svg>
