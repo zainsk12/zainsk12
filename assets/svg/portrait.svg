@@ -11,28 +11,49 @@
                letter-spacing: 2px; }
     
     #portrait-core {
-      animation: fadeRise-portrait-core 550ms cubic-bezier(.16,1,.3,1) 150ms both;
+      opacity: 0;
+      animation: fadeIn-portrait-core 550ms ease 150ms forwards;
     }
-    @keyframes fadeRise-portrait-core {
-      from { opacity: 0; transform: translateY(0px); }
-      to { opacity: 1; transform: translateY(0); }
+
+    @keyframes fadeIn-portrait-core {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
+    
     
     #portrait-name {
-      animation: fadeRise-portrait-name 450ms cubic-bezier(.16,1,.3,1) 650ms both;
+      opacity: 0;
+      animation: fadeIn-portrait-name 450ms ease 650ms forwards;
     }
-    @keyframes fadeRise-portrait-name {
-      from { opacity: 0; transform: translateY(8px); }
-      to { opacity: 1; transform: translateY(0); }
+
+    @keyframes fadeIn-portrait-name {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
     
+    
     #portrait-role {
-      animation: fadeRise-portrait-role 450ms cubic-bezier(.16,1,.3,1) 750ms both;
+      opacity: 0;
+      animation: fadeIn-portrait-role 450ms ease 750ms forwards;
     }
-    @keyframes fadeRise-portrait-role {
-      from { opacity: 0; transform: translateY(8px); }
-      to { opacity: 1; transform: translateY(0); }
+
+    @keyframes fadeIn-portrait-role {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
+    
     
     #portrait-outer-ring {
       stroke-dasharray: 563;

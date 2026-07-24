@@ -11,36 +11,64 @@
     .prompt { font-family: 'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace; font-size: 11.5px; fill: #6E6E73; }
     
     #hero-name {
-      animation: fadeRise-hero-name 550ms cubic-bezier(.16,1,.3,1) 100ms both;
+      opacity: 0;
+      animation: fadeIn-hero-name 550ms ease 100ms forwards;
     }
-    @keyframes fadeRise-hero-name {
-      from { opacity: 0; transform: translateY(8px); }
-      to { opacity: 1; transform: translateY(0); }
+
+    @keyframes fadeIn-hero-name {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
+    
     
     #hero-role {
-      animation: fadeRise-hero-role 550ms cubic-bezier(.16,1,.3,1) 280ms both;
+      opacity: 0;
+      animation: fadeIn-hero-role 550ms ease 280ms forwards;
     }
-    @keyframes fadeRise-hero-role {
-      from { opacity: 0; transform: translateY(8px); }
-      to { opacity: 1; transform: translateY(0); }
+
+    @keyframes fadeIn-hero-role {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
+    
     
     #hero-tagline {
-      animation: fadeRise-hero-tagline 550ms cubic-bezier(.16,1,.3,1) 430ms both;
+      opacity: 0;
+      animation: fadeIn-hero-tagline 550ms ease 430ms forwards;
     }
-    @keyframes fadeRise-hero-tagline {
-      from { opacity: 0; transform: translateY(8px); }
-      to { opacity: 1; transform: translateY(0); }
+
+    @keyframes fadeIn-hero-tagline {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
     
+    
     #hero-chips {
-      animation: fadeRise-hero-chips 550ms cubic-bezier(.16,1,.3,1) 600ms both;
+      opacity: 0;
+      animation: fadeIn-hero-chips 550ms ease 600ms forwards;
     }
-    @keyframes fadeRise-hero-chips {
-      from { opacity: 0; transform: translateY(8px); }
-      to { opacity: 1; transform: translateY(0); }
+
+    @keyframes fadeIn-hero-chips {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
+    
     
     #hero-underline {
       stroke-dasharray: 64;
